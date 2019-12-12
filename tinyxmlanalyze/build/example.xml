@@ -1,0 +1,8 @@
+<?xml version="1,0" encoding="GBK" ?>
+<root>
+    <host checked="true" station="1001">127.0.0.1</host>
+    <client>
+        <name>andy</name>
+        <id>20190608</id>
+    </client>
+</root>

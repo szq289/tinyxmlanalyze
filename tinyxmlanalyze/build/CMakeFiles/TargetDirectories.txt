@@ -1,0 +1,3 @@
+C:/Users/sun/Desktop/tinyxmlanalyze/build/CMakeFiles/tinyxmlanalyze.dir
+C:/Users/sun/Desktop/tinyxmlanalyze/build/CMakeFiles/edit_cache.dir
+C:/Users/sun/Desktop/tinyxmlanalyze/build/CMakeFiles/rebuild_cache.dir
