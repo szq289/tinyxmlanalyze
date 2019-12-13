@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/tinyxmlanalyze.dir/source/main.cpp.obj"
+  "CMakeFiles/tinyxmlanalyze.dir/source/tinyfunc.cpp.obj"
   "CMakeFiles/tinyxmlanalyze.dir/source/tinystr.cpp.obj"
   "CMakeFiles/tinyxmlanalyze.dir/source/tinyxml.cpp.obj"
   "CMakeFiles/tinyxmlanalyze.dir/source/tinyxmlerror.cpp.obj"

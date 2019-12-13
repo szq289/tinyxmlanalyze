@@ -1,28 +1,10 @@
-#if 0
-#include <iostream>
-
-using namespace std;
-
-int main(void)
-
-{
-	cout<<"HELLO,WORLD!\n";
-
-	return 0;
-}
-#endif
-
-
-
 #include <stdio.h>
 #include <string.h>
 #include <vector>
-#include "tinyxml.h"
+#include "tinyfunc.h"
 
 using namespace std;
 
-void addChile(TiXmlElement * parent, const char* node, int value);
-void addChile(TiXmlElement * parent, const char* node, const char* value);
 
 struct Node
 {
@@ -76,27 +58,7 @@ int save()
 	return 0;
 }
 
-//添加子节点
-void addChile(TiXmlElement * parent, const char* node, int value)
-{
-	//创建节点
-	TiXmlElement* xml_node = new TiXmlElement(node);
-	//将int转为char
-	char buf[32];
-	sprintf(buf, "%d", value);
-	xml_node->LinkEndChild(new TiXmlText(buf));
-	parent->LinkEndChild(xml_node);
 
-}
-
-void addChile(TiXmlElement * parent, const char* node, const char* value)
-{
-	//创建节点
-	TiXmlElement* xml_node = new TiXmlElement(node);
-	//将int转为char
-	xml_node->LinkEndChild(new TiXmlText(value));
-	parent->LinkEndChild(xml_node);
-}
 
 
 //生成xml文件
@@ -144,6 +106,8 @@ int test1()
 	}
 }
 
+
+#if 0
 //解析xml文件
 int test2()
 {
@@ -212,6 +176,8 @@ int test3()
 	}
 
 }
+#endif
+
 int main()
 {
 	test1();

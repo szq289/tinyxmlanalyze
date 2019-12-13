@@ -149,6 +149,33 @@ source/main.cpp.s:
 	$(MAKE) -f CMakeFiles\tinyxmlanalyze.dir\build.make CMakeFiles/tinyxmlanalyze.dir/source/main.cpp.s
 .PHONY : source/main.cpp.s
 
+source/tinyfunc.obj: source/tinyfunc.cpp.obj
+
+.PHONY : source/tinyfunc.obj
+
+# target to build an object file
+source/tinyfunc.cpp.obj:
+	$(MAKE) -f CMakeFiles\tinyxmlanalyze.dir\build.make CMakeFiles/tinyxmlanalyze.dir/source/tinyfunc.cpp.obj
+.PHONY : source/tinyfunc.cpp.obj
+
+source/tinyfunc.i: source/tinyfunc.cpp.i
+
+.PHONY : source/tinyfunc.i
+
+# target to preprocess a source file
+source/tinyfunc.cpp.i:
+	$(MAKE) -f CMakeFiles\tinyxmlanalyze.dir\build.make CMakeFiles/tinyxmlanalyze.dir/source/tinyfunc.cpp.i
+.PHONY : source/tinyfunc.cpp.i
+
+source/tinyfunc.s: source/tinyfunc.cpp.s
+
+.PHONY : source/tinyfunc.s
+
+# target to generate assembly for a file
+source/tinyfunc.cpp.s:
+	$(MAKE) -f CMakeFiles\tinyxmlanalyze.dir\build.make CMakeFiles/tinyxmlanalyze.dir/source/tinyfunc.cpp.s
+.PHONY : source/tinyfunc.cpp.s
+
 source/tinystr.obj: source/tinystr.cpp.obj
 
 .PHONY : source/tinystr.obj
@@ -269,6 +296,9 @@ help:
 	@echo ... source/main.obj
 	@echo ... source/main.i
 	@echo ... source/main.s
+	@echo ... source/tinyfunc.obj
+	@echo ... source/tinyfunc.i
+	@echo ... source/tinyfunc.s
 	@echo ... source/tinystr.obj
 	@echo ... source/tinystr.i
 	@echo ... source/tinystr.s

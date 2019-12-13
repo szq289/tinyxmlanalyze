@@ -60,15 +60,15 @@ CMakeFiles/tinyxmlanalyze.dir/source/main.cpp.obj: CMakeFiles/tinyxmlanalyze.dir
 CMakeFiles/tinyxmlanalyze.dir/source/main.cpp.obj: CMakeFiles/tinyxmlanalyze.dir/includes_CXX.rsp
 CMakeFiles/tinyxmlanalyze.dir/source/main.cpp.obj: ../source/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sun\Desktop\tinyxmlanalyze\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tinyxmlanalyze.dir/source/main.cpp.obj"
-	F:\MINGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\tinyxmlanalyze.dir\source\main.cpp.obj -c C:\Users\sun\Desktop\tinyxmlanalyze\source\main.cpp
+	C:\MINGW\bin\c++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\tinyxmlanalyze.dir\source\main.cpp.obj -c C:\Users\sun\Desktop\tinyxmlanalyze\source\main.cpp
 
 CMakeFiles/tinyxmlanalyze.dir/source/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tinyxmlanalyze.dir/source/main.cpp.i"
-	F:\MINGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sun\Desktop\tinyxmlanalyze\source\main.cpp > CMakeFiles\tinyxmlanalyze.dir\source\main.cpp.i
+	C:\MINGW\bin\c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sun\Desktop\tinyxmlanalyze\source\main.cpp > CMakeFiles\tinyxmlanalyze.dir\source\main.cpp.i
 
 CMakeFiles/tinyxmlanalyze.dir/source/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tinyxmlanalyze.dir/source/main.cpp.s"
-	F:\MINGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sun\Desktop\tinyxmlanalyze\source\main.cpp -o CMakeFiles\tinyxmlanalyze.dir\source\main.cpp.s
+	C:\MINGW\bin\c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sun\Desktop\tinyxmlanalyze\source\main.cpp -o CMakeFiles\tinyxmlanalyze.dir\source\main.cpp.s
 
 CMakeFiles/tinyxmlanalyze.dir/source/main.cpp.obj.requires:
 
@@ -81,19 +81,44 @@ CMakeFiles/tinyxmlanalyze.dir/source/main.cpp.obj.provides: CMakeFiles/tinyxmlan
 CMakeFiles/tinyxmlanalyze.dir/source/main.cpp.obj.provides.build: CMakeFiles/tinyxmlanalyze.dir/source/main.cpp.obj
 
 
+CMakeFiles/tinyxmlanalyze.dir/source/tinyfunc.cpp.obj: CMakeFiles/tinyxmlanalyze.dir/flags.make
+CMakeFiles/tinyxmlanalyze.dir/source/tinyfunc.cpp.obj: CMakeFiles/tinyxmlanalyze.dir/includes_CXX.rsp
+CMakeFiles/tinyxmlanalyze.dir/source/tinyfunc.cpp.obj: ../source/tinyfunc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sun\Desktop\tinyxmlanalyze\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tinyxmlanalyze.dir/source/tinyfunc.cpp.obj"
+	C:\MINGW\bin\c++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\tinyxmlanalyze.dir\source\tinyfunc.cpp.obj -c C:\Users\sun\Desktop\tinyxmlanalyze\source\tinyfunc.cpp
+
+CMakeFiles/tinyxmlanalyze.dir/source/tinyfunc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tinyxmlanalyze.dir/source/tinyfunc.cpp.i"
+	C:\MINGW\bin\c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sun\Desktop\tinyxmlanalyze\source\tinyfunc.cpp > CMakeFiles\tinyxmlanalyze.dir\source\tinyfunc.cpp.i
+
+CMakeFiles/tinyxmlanalyze.dir/source/tinyfunc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tinyxmlanalyze.dir/source/tinyfunc.cpp.s"
+	C:\MINGW\bin\c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sun\Desktop\tinyxmlanalyze\source\tinyfunc.cpp -o CMakeFiles\tinyxmlanalyze.dir\source\tinyfunc.cpp.s
+
+CMakeFiles/tinyxmlanalyze.dir/source/tinyfunc.cpp.obj.requires:
+
+.PHONY : CMakeFiles/tinyxmlanalyze.dir/source/tinyfunc.cpp.obj.requires
+
+CMakeFiles/tinyxmlanalyze.dir/source/tinyfunc.cpp.obj.provides: CMakeFiles/tinyxmlanalyze.dir/source/tinyfunc.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\tinyxmlanalyze.dir\build.make CMakeFiles/tinyxmlanalyze.dir/source/tinyfunc.cpp.obj.provides.build
+.PHONY : CMakeFiles/tinyxmlanalyze.dir/source/tinyfunc.cpp.obj.provides
+
+CMakeFiles/tinyxmlanalyze.dir/source/tinyfunc.cpp.obj.provides.build: CMakeFiles/tinyxmlanalyze.dir/source/tinyfunc.cpp.obj
+
+
 CMakeFiles/tinyxmlanalyze.dir/source/tinystr.cpp.obj: CMakeFiles/tinyxmlanalyze.dir/flags.make
 CMakeFiles/tinyxmlanalyze.dir/source/tinystr.cpp.obj: CMakeFiles/tinyxmlanalyze.dir/includes_CXX.rsp
 CMakeFiles/tinyxmlanalyze.dir/source/tinystr.cpp.obj: ../source/tinystr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sun\Desktop\tinyxmlanalyze\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tinyxmlanalyze.dir/source/tinystr.cpp.obj"
-	F:\MINGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\tinyxmlanalyze.dir\source\tinystr.cpp.obj -c C:\Users\sun\Desktop\tinyxmlanalyze\source\tinystr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sun\Desktop\tinyxmlanalyze\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tinyxmlanalyze.dir/source/tinystr.cpp.obj"
+	C:\MINGW\bin\c++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\tinyxmlanalyze.dir\source\tinystr.cpp.obj -c C:\Users\sun\Desktop\tinyxmlanalyze\source\tinystr.cpp
 
 CMakeFiles/tinyxmlanalyze.dir/source/tinystr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tinyxmlanalyze.dir/source/tinystr.cpp.i"
-	F:\MINGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sun\Desktop\tinyxmlanalyze\source\tinystr.cpp > CMakeFiles\tinyxmlanalyze.dir\source\tinystr.cpp.i
+	C:\MINGW\bin\c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sun\Desktop\tinyxmlanalyze\source\tinystr.cpp > CMakeFiles\tinyxmlanalyze.dir\source\tinystr.cpp.i
 
 CMakeFiles/tinyxmlanalyze.dir/source/tinystr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tinyxmlanalyze.dir/source/tinystr.cpp.s"
-	F:\MINGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sun\Desktop\tinyxmlanalyze\source\tinystr.cpp -o CMakeFiles\tinyxmlanalyze.dir\source\tinystr.cpp.s
+	C:\MINGW\bin\c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sun\Desktop\tinyxmlanalyze\source\tinystr.cpp -o CMakeFiles\tinyxmlanalyze.dir\source\tinystr.cpp.s
 
 CMakeFiles/tinyxmlanalyze.dir/source/tinystr.cpp.obj.requires:
 
@@ -109,16 +134,16 @@ CMakeFiles/tinyxmlanalyze.dir/source/tinystr.cpp.obj.provides.build: CMakeFiles/
 CMakeFiles/tinyxmlanalyze.dir/source/tinyxml.cpp.obj: CMakeFiles/tinyxmlanalyze.dir/flags.make
 CMakeFiles/tinyxmlanalyze.dir/source/tinyxml.cpp.obj: CMakeFiles/tinyxmlanalyze.dir/includes_CXX.rsp
 CMakeFiles/tinyxmlanalyze.dir/source/tinyxml.cpp.obj: ../source/tinyxml.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sun\Desktop\tinyxmlanalyze\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tinyxmlanalyze.dir/source/tinyxml.cpp.obj"
-	F:\MINGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\tinyxmlanalyze.dir\source\tinyxml.cpp.obj -c C:\Users\sun\Desktop\tinyxmlanalyze\source\tinyxml.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sun\Desktop\tinyxmlanalyze\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tinyxmlanalyze.dir/source/tinyxml.cpp.obj"
+	C:\MINGW\bin\c++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\tinyxmlanalyze.dir\source\tinyxml.cpp.obj -c C:\Users\sun\Desktop\tinyxmlanalyze\source\tinyxml.cpp
 
 CMakeFiles/tinyxmlanalyze.dir/source/tinyxml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tinyxmlanalyze.dir/source/tinyxml.cpp.i"
-	F:\MINGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sun\Desktop\tinyxmlanalyze\source\tinyxml.cpp > CMakeFiles\tinyxmlanalyze.dir\source\tinyxml.cpp.i
+	C:\MINGW\bin\c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sun\Desktop\tinyxmlanalyze\source\tinyxml.cpp > CMakeFiles\tinyxmlanalyze.dir\source\tinyxml.cpp.i
 
 CMakeFiles/tinyxmlanalyze.dir/source/tinyxml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tinyxmlanalyze.dir/source/tinyxml.cpp.s"
-	F:\MINGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sun\Desktop\tinyxmlanalyze\source\tinyxml.cpp -o CMakeFiles\tinyxmlanalyze.dir\source\tinyxml.cpp.s
+	C:\MINGW\bin\c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sun\Desktop\tinyxmlanalyze\source\tinyxml.cpp -o CMakeFiles\tinyxmlanalyze.dir\source\tinyxml.cpp.s
 
 CMakeFiles/tinyxmlanalyze.dir/source/tinyxml.cpp.obj.requires:
 
@@ -134,16 +159,16 @@ CMakeFiles/tinyxmlanalyze.dir/source/tinyxml.cpp.obj.provides.build: CMakeFiles/
 CMakeFiles/tinyxmlanalyze.dir/source/tinyxmlerror.cpp.obj: CMakeFiles/tinyxmlanalyze.dir/flags.make
 CMakeFiles/tinyxmlanalyze.dir/source/tinyxmlerror.cpp.obj: CMakeFiles/tinyxmlanalyze.dir/includes_CXX.rsp
 CMakeFiles/tinyxmlanalyze.dir/source/tinyxmlerror.cpp.obj: ../source/tinyxmlerror.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sun\Desktop\tinyxmlanalyze\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tinyxmlanalyze.dir/source/tinyxmlerror.cpp.obj"
-	F:\MINGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\tinyxmlanalyze.dir\source\tinyxmlerror.cpp.obj -c C:\Users\sun\Desktop\tinyxmlanalyze\source\tinyxmlerror.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sun\Desktop\tinyxmlanalyze\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tinyxmlanalyze.dir/source/tinyxmlerror.cpp.obj"
+	C:\MINGW\bin\c++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\tinyxmlanalyze.dir\source\tinyxmlerror.cpp.obj -c C:\Users\sun\Desktop\tinyxmlanalyze\source\tinyxmlerror.cpp
 
 CMakeFiles/tinyxmlanalyze.dir/source/tinyxmlerror.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tinyxmlanalyze.dir/source/tinyxmlerror.cpp.i"
-	F:\MINGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sun\Desktop\tinyxmlanalyze\source\tinyxmlerror.cpp > CMakeFiles\tinyxmlanalyze.dir\source\tinyxmlerror.cpp.i
+	C:\MINGW\bin\c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sun\Desktop\tinyxmlanalyze\source\tinyxmlerror.cpp > CMakeFiles\tinyxmlanalyze.dir\source\tinyxmlerror.cpp.i
 
 CMakeFiles/tinyxmlanalyze.dir/source/tinyxmlerror.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tinyxmlanalyze.dir/source/tinyxmlerror.cpp.s"
-	F:\MINGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sun\Desktop\tinyxmlanalyze\source\tinyxmlerror.cpp -o CMakeFiles\tinyxmlanalyze.dir\source\tinyxmlerror.cpp.s
+	C:\MINGW\bin\c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sun\Desktop\tinyxmlanalyze\source\tinyxmlerror.cpp -o CMakeFiles\tinyxmlanalyze.dir\source\tinyxmlerror.cpp.s
 
 CMakeFiles/tinyxmlanalyze.dir/source/tinyxmlerror.cpp.obj.requires:
 
@@ -159,16 +184,16 @@ CMakeFiles/tinyxmlanalyze.dir/source/tinyxmlerror.cpp.obj.provides.build: CMakeF
 CMakeFiles/tinyxmlanalyze.dir/source/tinyxmlparser.cpp.obj: CMakeFiles/tinyxmlanalyze.dir/flags.make
 CMakeFiles/tinyxmlanalyze.dir/source/tinyxmlparser.cpp.obj: CMakeFiles/tinyxmlanalyze.dir/includes_CXX.rsp
 CMakeFiles/tinyxmlanalyze.dir/source/tinyxmlparser.cpp.obj: ../source/tinyxmlparser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sun\Desktop\tinyxmlanalyze\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tinyxmlanalyze.dir/source/tinyxmlparser.cpp.obj"
-	F:\MINGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\tinyxmlanalyze.dir\source\tinyxmlparser.cpp.obj -c C:\Users\sun\Desktop\tinyxmlanalyze\source\tinyxmlparser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sun\Desktop\tinyxmlanalyze\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tinyxmlanalyze.dir/source/tinyxmlparser.cpp.obj"
+	C:\MINGW\bin\c++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\tinyxmlanalyze.dir\source\tinyxmlparser.cpp.obj -c C:\Users\sun\Desktop\tinyxmlanalyze\source\tinyxmlparser.cpp
 
 CMakeFiles/tinyxmlanalyze.dir/source/tinyxmlparser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tinyxmlanalyze.dir/source/tinyxmlparser.cpp.i"
-	F:\MINGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sun\Desktop\tinyxmlanalyze\source\tinyxmlparser.cpp > CMakeFiles\tinyxmlanalyze.dir\source\tinyxmlparser.cpp.i
+	C:\MINGW\bin\c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sun\Desktop\tinyxmlanalyze\source\tinyxmlparser.cpp > CMakeFiles\tinyxmlanalyze.dir\source\tinyxmlparser.cpp.i
 
 CMakeFiles/tinyxmlanalyze.dir/source/tinyxmlparser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tinyxmlanalyze.dir/source/tinyxmlparser.cpp.s"
-	F:\MINGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sun\Desktop\tinyxmlanalyze\source\tinyxmlparser.cpp -o CMakeFiles\tinyxmlanalyze.dir\source\tinyxmlparser.cpp.s
+	C:\MINGW\bin\c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sun\Desktop\tinyxmlanalyze\source\tinyxmlparser.cpp -o CMakeFiles\tinyxmlanalyze.dir\source\tinyxmlparser.cpp.s
 
 CMakeFiles/tinyxmlanalyze.dir/source/tinyxmlparser.cpp.obj.requires:
 
@@ -184,6 +209,7 @@ CMakeFiles/tinyxmlanalyze.dir/source/tinyxmlparser.cpp.obj.provides.build: CMake
 # Object files for target tinyxmlanalyze
 tinyxmlanalyze_OBJECTS = \
 "CMakeFiles/tinyxmlanalyze.dir/source/main.cpp.obj" \
+"CMakeFiles/tinyxmlanalyze.dir/source/tinyfunc.cpp.obj" \
 "CMakeFiles/tinyxmlanalyze.dir/source/tinystr.cpp.obj" \
 "CMakeFiles/tinyxmlanalyze.dir/source/tinyxml.cpp.obj" \
 "CMakeFiles/tinyxmlanalyze.dir/source/tinyxmlerror.cpp.obj" \
@@ -193,6 +219,7 @@ tinyxmlanalyze_OBJECTS = \
 tinyxmlanalyze_EXTERNAL_OBJECTS =
 
 tinyxmlanalyze.exe: CMakeFiles/tinyxmlanalyze.dir/source/main.cpp.obj
+tinyxmlanalyze.exe: CMakeFiles/tinyxmlanalyze.dir/source/tinyfunc.cpp.obj
 tinyxmlanalyze.exe: CMakeFiles/tinyxmlanalyze.dir/source/tinystr.cpp.obj
 tinyxmlanalyze.exe: CMakeFiles/tinyxmlanalyze.dir/source/tinyxml.cpp.obj
 tinyxmlanalyze.exe: CMakeFiles/tinyxmlanalyze.dir/source/tinyxmlerror.cpp.obj
@@ -201,7 +228,7 @@ tinyxmlanalyze.exe: CMakeFiles/tinyxmlanalyze.dir/build.make
 tinyxmlanalyze.exe: CMakeFiles/tinyxmlanalyze.dir/linklibs.rsp
 tinyxmlanalyze.exe: CMakeFiles/tinyxmlanalyze.dir/objects1.rsp
 tinyxmlanalyze.exe: CMakeFiles/tinyxmlanalyze.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\sun\Desktop\tinyxmlanalyze\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable tinyxmlanalyze.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\sun\Desktop\tinyxmlanalyze\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable tinyxmlanalyze.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\tinyxmlanalyze.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -210,6 +237,7 @@ CMakeFiles/tinyxmlanalyze.dir/build: tinyxmlanalyze.exe
 .PHONY : CMakeFiles/tinyxmlanalyze.dir/build
 
 CMakeFiles/tinyxmlanalyze.dir/requires: CMakeFiles/tinyxmlanalyze.dir/source/main.cpp.obj.requires
+CMakeFiles/tinyxmlanalyze.dir/requires: CMakeFiles/tinyxmlanalyze.dir/source/tinyfunc.cpp.obj.requires
 CMakeFiles/tinyxmlanalyze.dir/requires: CMakeFiles/tinyxmlanalyze.dir/source/tinystr.cpp.obj.requires
 CMakeFiles/tinyxmlanalyze.dir/requires: CMakeFiles/tinyxmlanalyze.dir/source/tinyxml.cpp.obj.requires
 CMakeFiles/tinyxmlanalyze.dir/requires: CMakeFiles/tinyxmlanalyze.dir/source/tinyxmlerror.cpp.obj.requires

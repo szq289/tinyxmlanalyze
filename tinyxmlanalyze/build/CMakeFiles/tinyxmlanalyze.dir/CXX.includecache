@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+../include/tinyfunc.h
+tinyxml.h
+../include/tinyxml.h
+
 ../include/tinystr.h
 assert.h
 -
@@ -43,6 +47,10 @@ vector
 -
 tinyxml.h
 C:/Users/sun/Desktop/tinyxmlanalyze/source/tinyxml.h
+
+C:/Users/sun/Desktop/tinyxmlanalyze/source/tinyfunc.cpp
+tinyfunc.h
+C:/Users/sun/Desktop/tinyxmlanalyze/source/tinyfunc.h
 
 C:/Users/sun/Desktop/tinyxmlanalyze/source/tinystr.cpp
 tinystr.h

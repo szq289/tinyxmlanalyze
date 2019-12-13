@@ -5,6 +5,11 @@ CMakeFiles/tinyxmlanalyze.dir/source/main.cpp.obj
  ../include/tinystr.h
  ../include/tinyxml.h
  C:/Users/sun/Desktop/tinyxmlanalyze/source/main.cpp
+CMakeFiles/tinyxmlanalyze.dir/source/tinyfunc.cpp.obj
+ ../include/tinyfunc.h
+ ../include/tinystr.h
+ ../include/tinyxml.h
+ C:/Users/sun/Desktop/tinyxmlanalyze/source/tinyfunc.cpp
 CMakeFiles/tinyxmlanalyze.dir/source/tinystr.cpp.obj
  ../include/tinystr.h
  C:/Users/sun/Desktop/tinyxmlanalyze/source/tinystr.cpp
